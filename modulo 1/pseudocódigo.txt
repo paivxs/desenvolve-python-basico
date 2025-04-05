@@ -1,0 +1,8 @@
+pseudocódigo:
+Início
+    Leia n // Número a ser multiplicado por 9
+    Dezena = n - 1 // Calcula a dezena
+    Unidade = 10 - n // Calcula a unidade
+    Resultado = Dezena * 10 + Unidade // Calcula o resultado final
+    Imprima Resultado // Exibe o resultado da multiplicação
+Fim
