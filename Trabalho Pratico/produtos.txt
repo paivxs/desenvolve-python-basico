@@ -1,0 +1,3 @@
+Mouse,29.99,9
+Teclado,50,20
+Monitor,30,15

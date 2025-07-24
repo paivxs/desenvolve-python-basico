@@ -1,0 +1,48 @@
+# Trabalho Prático - Sistema FranSoft
+
+## Introdução
+
+O sistema FranSoft foi desenvolvido para simular o controle de usuários e produtos de uma empresa.
+Com ele é possível realizar o cadastro de diferentes níveis de usuários (admin e comum) e controlar um 
+pequeno estoque de produtos. O sistema funciona via terminal e utiliza arquivos de texto para salvar as informações,
+permitindo que os dados sejam preservados mesmo após o encerramento do programa.
+
+## Implementação
+
+A aplicação foi contruída em Python, usando conceitos como funções, listas, dicionários, estruturas condicionais e de
+repetição, além de leitura e escrita em arquivos (.txt)
+
+## Arquivos utilizados
+
+- main.py : contém todo o código do sistema.
+- usuarios.txt : guarda os dados dos usuários (nome, senha, tipo).
+- produtos.txt : guarda os produtos (nome, preço, quantidade).
+
+## Estrutura dos dados
+
+Cada linha dos arquivos representa um registro.
+por exemplo:
+- Em usuarios.txt : admin,123,admin
+- Em produtos.txt : Mouse,39.99,5
+
+## Funcionalidades do CRUD implementada
+
+Usuários (CRUD completo, somente admin):
+- Create: cadastrar_usuario()
+- Read: listar_usuario()
+- Update: atualizar_usuario()
+- Delete: deletar_usuario()
+
+## Produtos (CRUD para admin, leitura para comum)
+
+- Create: cadastrar_produto()
+- Read: listar_produtos() e buscar_produto()
+- Update: atualizar_produto()
+- Delete: deletar_produto()
+- Ordenar: ordenar_produtos() (por nome ou preço)
+
+## Conclusão
+Esse projeto foi uma ótima oportunidade para aplicar os conhecimento aprendidos no curso de Python básico.
+Consegui práticar a lógica de programação, uso de arquivos e o conceito de CRUD. Tive algumas dificuldades
+no ínicio com a estrutura do sistema, mas com o exemplo e ajuda, consegui implementar tudo corretamente.
+Se fosse refazer, organizaria o código separando as funções em arquivos diferentes para facilitar a manutenção.

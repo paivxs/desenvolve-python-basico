@@ -1,0 +1,3 @@
+Franciele,123,admin
+joao,abc123,comum
+Pedro,12345,comum
